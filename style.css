@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e0e0e0; /* Warna latar untuk deskripsi toko */
+    padding: 2rem;
+    text-align: center;
+}
+.contact-box {
+  background-color: #f2f4f7;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-label {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-links img {
+  width: 16px;
+  height: 16px;
+}
+
+/* warna lembut */
+.contact-links a.wa {
+  color: #1f7f4c;
+  background-color: #e8f5ee;
+}
+
+.contact-links a.ig {
+  color: #7a2d5d;
+  background-color: #f6e9f0;
+}
+
+/* hover premium */
+.contact-links a:hover {
+  transform: translateY(-2px);
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact a.wa {
+  color: #25D366;
+}
+
+.contact a.ig {
+  color: #C13584;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+}
+
+
+.contact a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.product-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;flex: 
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+footer {
+  display: flex;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertical */
+  text-align: center;
+  padding: 20px;
+}
