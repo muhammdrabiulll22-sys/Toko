@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eat - To Be Full</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href=".github/style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-container">
+
+    <div class="logo-section">
+      <img src="logo.svg" alt="Eat" class="main-logo">
+      <h1 class="logo-title">Eat</h1>
+    </div>
+
+    <nav class="nav" id="navMenu">
+      <ul>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#products">Produk</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <button class="burger" id="burgerBtn">
+      <i class="fas fa-bars"></i>
+    </button>
+
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container hero-container">
+
+    <div class="hero-text">
+      <h2>Eat <span>To Be Full</span></h2>
+      <p>Cari apa yang bisa mengisi perutmu.</p>
+
+      <div class="hero-buttons">
+        <button id="orderBtn">
+          <i class="fas fa-shopping-cart"></i> Pesan Sekarang
+        </button>
+        <button id="menuBtn">
+          <i class="fas fa-list"></i> Lihat Menu
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="produkspesial.jpg" alt="Menu Spesial">
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>Tentang Kami</h2>
+    <p>Eat adalah penyedia makanan premium dengan bahan terbaik.</p>
+  </div>
+</section>
+
+<section id="products" class="products">
+  <div class="container">
+    <h2>Menu Kami</h2>
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container contact-box">
+    <h2>Hubungi Kami</h2>
+
+    <div class="contact-buttons">
+      <a href="https://wa.me/6285705431638" target="_blank" class="contact-btn wa">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="https://instagram.com/29__Bill" target="_blank" class="contact-btn ig">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="modalClose" class="modal-close">&times;</span>
+
+    <h3 id="modalProductName"></h3>
+    <img id="modalProductImage">
+    <p id="modalProductPrice"></p>
+
+    <label>Varian</label>
+    <select id="modalVariant"></select>
+
+    <label>Jumlah</label>
+    <input type="number" id="modalQuantity" value="1" min="1">
+
+    <button id="modalOrder">
+      <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+    </button>
+  </div>
+</div>
+
+<!-- JS -->
+<script src=".github/script.js"></script>
+</body>
+</html>
