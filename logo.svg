@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7a18"/>
+      <stop offset="100%" stop-color="#ff2d55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="6" y="6" width="108" height="108" rx="24" fill="url(#grad)"/>
+
+  <!-- Plate -->
+  <circle cx="60" cy="60" r="26" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="60" cy="60" r="14" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.9"/>
+
+  <!-- Fork (left) -->
+  <rect x="38" y="38" width="4" height="44" rx="2" fill="#ffffff"/>
+  <rect x="32" y="38" width="4" height="14" rx="2" fill="#ffffff"/>
+  <rect x="36" y="38" width="4" height="14" rx="2" fill="#ffffff"/>
+  <rect x="40" y="38" width="4" height="14" rx="2" fill="#ffffff"/>
+
+  <!-- Spoon (right) -->
+  <ellipse cx="78" cy="44" rx="6" ry="8" fill="#ffffff"/>
+  <rect x="76" y="52" width="4" height="30" rx="2" fill="#ffffff"/>
+</svg>
